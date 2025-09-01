@@ -57,15 +57,21 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|  2000: 7F               |  2004:74                 |
+|  2001: 04               |  2005:79                 |
+|  2002: 00               |  2006:00                 | 
+|  2003: 75               |                          |
 
 #### Manual Calculations
 
-(Add your calculation here)
+![aksum_addition masm](https://github.com/user-attachments/assets/cfcdc876-a59f-437e-885c-1434d0fbc787)
+
 
 ---
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
+<img width="622" height="384" alt="aksum_additiom_asm" src="https://github.com/user-attachments/assets/e486bedf-8887-4681-a5ec-563b97f794f2" />
+
 
 ## 2. SUBTRACTION
 
