@@ -98,7 +98,7 @@ ORG 1000H
 MOV SI,1500H
 MOV CL,00H
 MOV [SI],1234H
-MOV [SI+02H],1234H
+MOV [SI+02H],1230H
 MOV AX,[SI]
 MOV BX,[SI+02H]
 SUB AX,BX
@@ -117,16 +117,23 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|   1500: 34              |    1504: 04              |
+|   1501: 12              |    1505: 00              |
+|   1502: 30              |    1506: 00              |
+|   1503: 12              |    1507: 00              |
 
 #### Manual Calculations
 
-(Add your calculation here)
+![aksub_masm](https://github.com/user-attachments/assets/22bbc07c-b518-43e8-8447-7f487d2c76a9)
+
 
 ---
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+
+<img width="638" height="396" alt="aksub_asm" src="https://github.com/user-attachments/assets/c1169bc8-26ef-4072-aeb6-bde60acf7b77" />
+
 
 ## 3. MULTIPLICATION
 
