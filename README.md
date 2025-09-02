@@ -159,7 +159,7 @@ ORG 1000H
 MOV SI,1200H
 MOV DX,0000H
 MOV [SI],1234H
-MOV [SI=02H],5678H
+MOV [SI+02H],5678H
 MOV AX,[SI]
 MOV BX,[SI+02H]
 MUL BX
@@ -210,8 +210,10 @@ END
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
 ORG 1000H
-MOV SI,2000H
+MOV SI,1200H
 MOV DX,0000H
+MOV [SI],0225H
+MOV [SI+02H],0110H
 MOV AX,[SI]
 MOV BX,[SI+02H]
 DIV BX
@@ -227,14 +229,21 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|    1200: 25             |     1204: 02             |
+|    1201: 02             |     1205: 00             |
+|    1202: 10             |     1206: 05             |
+|    1203: 01             |     1207: 00             |
 
 #### Manual Calculations
 
-(Add your calculation here)
+![akdiv_masm](https://github.com/user-attachments/assets/502697bb-56f3-42fd-b3d3-fdf2cc5feb6e)
+
 
 ---
 ## OUTPUT FROM MASM SOFTWARE
+
+<img width="628" height="378" alt="akdiv_asm" src="https://github.com/user-attachments/assets/2f8d016f-d7c8-4c0d-8d5b-5cd1598108fe" />
+
 
 
 
