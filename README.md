@@ -156,8 +156,10 @@ END
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
 ORG 1000H
-MOV SI,2000H
+MOV SI,1200H
 MOV DX,0000H
+MOV [SI],1234H
+MOV [SI=02H],5678H
 MOV AX,[SI]
 MOV BX,[SI+02H]
 MUL BX
@@ -173,15 +175,22 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|   1200: 34              |    1204: 60              |
+|   1201: 12              |    1205: 00              |
+|   1202: 78              |    1206: 26              |
+|   1203: 56              |    1207: 06              |
 
 #### Manual Calculations
 
-(Add your calculation here)
+![akmul masm](https://github.com/user-attachments/assets/2993f67b-df2b-498b-8e10-796e39c234df)
+
 
 ---
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+
+<img width="628" height="398" alt="akmul asm" src="https://github.com/user-attachments/assets/5fa94848-157b-40f4-bca0-0df7c8ab1852" />
+
 
 ## 4. DIVISION
 
