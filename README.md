@@ -73,7 +73,7 @@ END
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
 
-<img width="622" height="384" alt="aksum_additiom_asm" src="https://github.com/user-attachments/assets/fe33e968-0d0e-4741-9914-b4740a18ae69" />
+<img width="622" height="380" alt="aksum_additiom_asm" src="https://github.com/user-attachments/assets/fe33e968-0d0e-4741-9914-b4740a18ae69" />
 
 
 ## 2. SUBTRACTION
@@ -88,7 +88,7 @@ END
 
 ## FLOWCHART
 
-<img width="578" height="797" alt="image" src="https://github.com/user-attachments/assets/564c3c7a-33ce-4a1c-8920-beb5c24b9b47" />
+<img width="362" height="500" alt="image" src="https://github.com/user-attachments/assets/564c3c7a-33ce-4a1c-8920-beb5c24b9b47" />
 
 
 #### Program
@@ -148,7 +148,7 @@ END
 
 ##FLOWCHART
 
-<img width="569" height="906" alt="image" src="https://github.com/user-attachments/assets/88be88ff-2896-4a88-b73d-84ccffd2fcf9" />
+<img width="314" height="500" alt="image" src="https://github.com/user-attachments/assets/88be88ff-2896-4a88-b73d-84ccffd2fcf9" />
 
 
 
@@ -203,7 +203,7 @@ END
 3. Store result.
 
    ## FLOWCHART
-<img width="1065" height="802" alt="image" src="https://github.com/user-attachments/assets/25b4a483-0d42-494b-8639-1af3ea17191b" />
+<img width="663" height="500" alt="image" src="https://github.com/user-attachments/assets/25b4a483-0d42-494b-8639-1af3ea17191b" />
 
 
 #### Program
